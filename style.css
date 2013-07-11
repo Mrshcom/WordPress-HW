@@ -1,0 +1,675 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0 !important;
+	outline: 0 !important;
+}
+
+.left{float:left}
+.right{float:right}
+.cover{*zoom:1;}
+.cover:before,.cover:after{content:" ";display:table}
+.cover:after{clear:both}
+.mla,.mlra{margin-left:auto !important}
+.mra,.mlra{margin-right:auto !important}
+.last{margin-left:0 !important}
+.bold{font-weight:bold}
+
+body{
+	background-color: #30393E;
+	direction: rtl;
+}
+
+div.container-header{
+	/*min-height: 50px;*/
+	background-color: #3f484f;
+	outline : 1px solid red;
+}
+
+div.container-header header{
+	width: 980px;
+	min-height: 50px;
+	margin: 0 auto;
+	outline : 1px solid blue;
+	position: relative;
+}
+
+div.container-header header h1.logo{
+	width: 0px;
+	height: 65px;
+	padding-right: 280px;
+	text-indent: 100000px;
+	overflow: hidden;
+	font-size: 0px;
+	background: url(images/title_bg.jpg) no-repeat center top;
+	position: absolute;
+	top: 0;
+	right: 0;
+	box-shadow: 1px 1px 10px #555;
+	-webkit-box-shadow: 1px 1px 10px #555;
+	-moz-box-shadow: 1px 1px 10px #555;
+	-o-box-shadow: 1px 1px 10px #555;
+	-ms-box-shadow: 1px 1px 10px #555;
+	-khtml-box-shadow: 1px 1px 10px #555;
+	z-index: 10;
+	outline : 1px solid green;
+}
+
+div.container-header header nav{
+	margin-right: 295px;
+	padding-top: 10px;
+}
+
+div.container-header header nav menu{
+	list-style-type: none;
+}
+
+div.container-header header nav menu li{
+	float: right;
+	margin-left: 15px;
+}
+
+div.container-header header nav menu li a{
+	display: block;
+	padding:5px 7px;
+	font-family: tahoma;
+	font-size: 12px;
+	text-decoration: none;
+	color: #DDD;
+	outline: 1px solid orange;
+}
+
+div.container-header header nav menu li a:hover{
+	text-decoration: underline;
+	color: #EEE;
+}
+
+div.container-content{
+	background: #BCBCBC url(images/bg_body.jpg) repeat left top;
+	position: relative;
+	outline : 1px solid red;
+}
+
+div.container-content div.graybar{
+	width: 100%;
+	min-height: 3px;
+	background-color: #B4B6BA;
+	position: absolute;
+	top: 3px;
+}
+
+div.container-content div.content{
+	width: 980px;
+	/*min-height: 400px;*/
+	margin: 0 auto;
+	padding-top: 20px;
+	outline : 1px solid blue;
+}
+
+div.container-content div.content div.outer-content{
+	/*min-height: 866px;*/
+	padding: 7px;
+	background: url(images/pattern.jpg) repeat left top;
+	outline: 1px solid black;
+}
+
+div.content div.outer-content div.inner-content{
+	/*min-height: 400px;*/
+	padding: 15px 20px;
+	background-color: #FFF;
+	outline: 1px solid black;
+}
+
+div.outer-content div.inner-content section.slider{
+	/*width: 926px;*/
+	min-height: 350px;
+	background: url(images/slide.jpg) no-repeat center top;
+	outline: 1px solid black;
+}
+
+div.outer-content div.inner-content section.subslider{
+	/*min-height: 103px;*/
+	margin: 11px 0 0;
+	padding: 12px 0 11px;
+	border-right: 5px solid #99cc66 !important;
+	border-bottom: 2px solid #D5D5D5 !important;
+	outline: 1px solid black;
+}
+
+div.outer-content div.inner-content section.subslider h2{
+	color: #51A200;
+	font-size: 18px;
+	letter-spacing: -1px;
+	word-spacing: 1px;
+	font-weight: bold;
+	padding: 0 17px 0;
+	outline: 1px solid black;
+}
+
+div.outer-content div.inner-content section.subslider p{
+	color: #9D9D9D;
+	font-size: 12px;
+	line-height: 31px;
+	font-family: tahoma;
+	padding: 9px 17px 0;
+	outline: 1px solid black;
+}
+
+div.outer-content div.inner-content section.rapid-access{
+	min-height: 355px;
+	outline: 1px solid black;
+}
+
+div.outer-content div.inner-content section.rapid-access section.links{
+	width: 230px;
+	min-height: 355px;
+	float: right;
+	outline: 1px solid red;
+}
+
+div.outer-content div.inner-content section.rapid-access section.links h3{
+	min-height: 36px;
+	background: url(images/graybar.png) repeat-x left bottom;
+	margin: 13px 0 0;
+	padding: 0 15px;
+	font-size: 15px;
+	color: #444;
+	outline: 1px solid orange;
+}
+
+div.inner-content section.rapid-access section.links h3 span.greenbar{
+	width: 73px;
+	height: 3px;
+	display: block;
+	margin-top: 8px;
+	border-top: 3px solid #9C6 !important;
+	border-bottom: 3px solid #9C6 !important;
+}
+
+div.inner-content section.rapid-access section.links nav{
+	padding: 3px 11px;
+}
+
+div.inner-content section.rapid-access section.links nav ul{
+	list-style-image: url(images/list_arrow.png);
+	list-style-position: inside;
+}
+
+div.inner-content section.rapid-access section.links nav ul > li{
+	margin-top: 4px;
+}
+
+div.inner-content section.rapid-access section.links nav ul > li > a{
+	text-decoration: none;
+	font-family: tahoma;
+	color: #2C2B2B;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+div.inner-content section.rapid-access section.links nav ul > li > a:hover{
+	text-decoration: underline;
+}
+
+div.inner-content section.rapid-access section.Insurance{
+	margin-right: 230px;
+	outline: 1px solid red;
+}
+
+div.inner-content section.rapid-access section.Insurance div.rows{
+	min-height: 177px;
+	outline: 1px solid magenta;
+}
+
+section.rapid-access section.Insurance div.rows article{
+	width: 166px;
+	margin-left: 10px;
+	min-height: 177px;
+	outline: 1px solid green;
+}
+
+section.rapid-access section.Insurance div.rows article > a{
+	text-decoration: none;
+	position: relative;
+}
+
+section.Insurance div.rows article > a > span.commentimg{
+	font-family: tahoma;
+	color: white;
+	font-size: 12px;
+	background-color: #98CA46;
+	padding: 6px 24px;
+	position: absolute;
+	top: -22px;
+	right: 7px;
+}
+
+section.rapid-access section.Insurance div.rows article > a > img{
+	border-top: 2px solid #b3d98c !important;
+	border-left: 2px solid #b3d98c !important;
+	border-bottom: 2px solid #d4d4d4 !important;
+	border-right: 2px solid #d4d4d4 !important;
+	margin: 12px 6px 0 0;
+	padding: 3px;
+}
+
+section.rapid-access section.Insurance div.rows article > p{
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 13px;
+}
+
+div.container-footer{
+	background-color: #343d43;
+	outline : 1px solid red;
+}
+
+div.container-footer footer{
+	width: 980px;
+	margin: 0 auto;
+	outline : 1px solid blue;
+}
+
+div.container-footer footer > section{
+	width: 310px;
+	/*min-height: 280px;*/
+	margin-left: 25px;
+	outline : 1px solid blue;
+}
+
+h3.title{
+	min-height: 36px;
+	background: url(images/blackbar.png) repeat-x left bottom;
+	margin: 10px 0 0;
+	padding: 0 26px;
+	font-size: 15px;
+	color: #CCC;
+	outline: 1px solid orange;
+}
+
+span.greenbar{
+	width: 73px;
+	height: 3px;
+	display: block;
+	margin-top: 8px;
+	border-top: 3px solid #9C6 !important;
+	border-bottom: 3px solid #9C6 !important;
+}
+
+div.container-footer footer > section > nav{
+	padding: 2px 27px 0 0;
+}
+
+div.container-footer footer > section > nav ul{
+	list-style-type: none;
+}
+
+div.container-footer footer > section > nav ul > li{
+	margin-top: 10px;
+}
+
+div.container-footer footer > section > nav ul > li > a{
+	text-decoration: none;
+	color: #CCC;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
+div.container-footer footer > section > nav ul > li > a:hover{
+	text-decoration: underline;
+}
+
+div.container-footer footer > section section.newsletter{
+	/*min-height: 140px;*/
+	outline: 1px solid red;
+}
+
+div.container-footer footer > section section.newsletter span.greenbar{
+	width: 100px;
+}	
+
+div.container-footer footer > section section.newsletter div.send-mail{
+	/*min-height: 100px;*/
+	outline: 1px solid red;
+}
+
+div.container-footer footer > section section.newsletter div.send-mail > p{
+	color: #CCC;
+	font-family: Tahoma;
+	font-size: 12px;
+	margin: 15px 22px 0 0;
+}
+
+div.container-footer footer > section section.newsletter div.send-mail > span{
+	display: block;
+	direction: ltr;
+	width: 291px;
+	border: 1px solid #555d63 !important;
+	margin: 21px 3px 0 0;
+}
+
+div.container-footer footer > section section.newsletter div.send-mail > span #txtmail{
+	width: 190px;
+	height: 32px;
+	border: none;
+	color: #CCC;
+	font-family: Tahoma;
+	font-size: 12px;
+	padding: 0 5px;
+	background-color: transparent;
+}
+
+div.container-footer footer > section section.newsletter div.send-mail > span #btnsend{
+	width: 80px;
+	height: 37px;
+	color: #CCC;
+	font-family: Tahoma;
+	font-size: 12px;
+	border: none;
+	background-color: #555d63
+}
+
+div.container-footer footer > section section.newsletter div.send-mail > span #btnsend:hover{
+	background-color: #464c50;
+}
+
+div.container-footer footer > section section.socialnetworks{
+	/*min-height: 140px;*/
+	padding-top: 10px;
+	outline: 1px solid red;
+}
+
+div.container-footer footer > section section.socialnetworks span.greenbar{
+	width: 100px;
+}
+
+div.container-footer footer > section section.socialnetworks nav{
+	margin-top: 10px;
+}
+
+div.container-footer footer > section section.socialnetworks nav > ul{
+	list-style-type: none;
+}
+
+div.container-footer footer > section section.socialnetworks nav > ul > li{
+	float: right;
+	margin-left: 10px;
+}
+
+div.container-footer footer > section section.socialnetworks nav > ul > li > a{
+	text-decoration: none;
+	display: block;
+	width: 65px;
+	height: 65px;
+	border: 1px solid red;
+}
+
+div.container-footer footer > section.contactus span.greenbar{
+	width: 55px;
+}
+
+div.container-footer footer > section.contactus p{
+	color: #CCC;
+	font-family: Tahoma;
+	font-size: 12px;
+	padding: 15px 24px 0 0;
+	line-height: 20px;
+}
+
+div.container-footer footer > section.contactus div.gmap{
+	width: 274px;
+	height: 122px;
+	margin: 10px 24px 0 0;
+	background: url(images/gmap.jpg) no-repeat center center;
+}
+
+div.container-copyright{
+	background-color: #30393e;
+	outline : 1px solid red;
+}
+
+div.container-copyright div.copyright{
+	width: 980px;
+	margin: 0 auto;
+	outline : 1px solid blue;
+}
+
+div.container-copyright div.copyright section{
+	width: 312px;
+	min-height: 47px;
+	margin: 0 auto;
+	background: url(images/greenweb.png) no-repeat left center;
+	outline : 1px solid blue;
+}
+
+div.container-copyright div.copyright section p{
+	margin: 14px 50px 0 0;
+	color: #CCC;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
+div.container-copyright div.copyright section p a{
+	text-decoration: none;
+	color: #CCC;
+}
+
+div.container-copyright div.copyright section p a:hover{
+	text-decoration: underline;
+}
+
+/*----- About Us Page -------------------------------------------------------------------*/
+div.container-content div.content nav.pagelink{
+	
+}
+
+div.container-content div.content nav.pagelink > ul{
+	margin: 8px 7px 12px 0;
+	list-style-type: none;
+}
+
+div.container-content div.content nav.pagelink > ul > li{
+	float: right;
+	margin-left: 11px;
+}
+
+div.container-content div.content nav.pagelink > ul > li > a{
+	text-decoration: none;
+	color: #2f383f;
+	font-family: Tahoma;
+	font-size: 12px;
+	text-shadow:0 0 1px #444;
+	-webkit-text-shadow:0 0 1px #444;
+	-moz-text-shadow:0 0 1px #444;
+	-o-text-shadow:0 0 1px #444;
+	-ms-text-shadow:0 0 1px #444;
+	-khtml-text-shadow:0 0 1px #444;
+}
+
+div.container-content div.content nav.pagelink > ul > li > a:hover{
+	text-decoration: underline;
+}
+
+div.outer-content div.inner-content h2.title{
+	width: 0px;
+	height: 44px;
+	margin-top: -15px;
+	text-indent: 100000px;
+	overflow: hidden;
+	font-size: 0px;
+}
+
+div.outer-content div.inner-content h2.title.aboutus{
+	padding-right: 91px;
+	background: url(images/title_aboutus.png) no-repeat center top;
+}
+
+div.outer-content div.inner-content section.content{
+	/*min-height: 330px;*/
+	padding: 8px 0 0 0;
+	outline: 1px solid red;
+}
+
+div.outer-content div.inner-content section.content figure.pic{
+	width: 355px;
+	height: 182px;
+	float: left;
+	margin: 0 16px 5px 0;
+	border-top: 2px solid #b3d98c !important;
+	border-left: 2px solid #b3d98c !important;
+	border-bottom: 2px solid #d4d4d4 !important;
+	border-right: 2px solid #d4d4d4 !important;
+	padding: 3px;
+	border: 1px solid green;
+}
+
+div.outer-content div.inner-content section.content > p{
+	color: #6F6F6F;
+	font-family: Tahoma;
+	font-size: 12px;
+	text-align: justify;
+	margin: 8px 0 0 0;
+	line-height: 21px;
+}
+
+/*----- Insurance Details Page -------------------------------------------------------------------*/
+div.outer-content div.inner-content h2.title.insurance-details{
+	padding-right: 188px;
+	background: url(images/title_insurance_details.png) no-repeat center top;
+}
+
+/*----- Insurance List Page -------------------------------------------------------------------*/
+div.outer-content div.inner-content h2.title.insurance-list{
+	padding-right: 121px;
+	background: url(images/title_insurance-list.png) no-repeat center top;
+}
+
+div.inner-content section.Insurance{
+	outline: 1px solid red;
+}
+
+div.inner-content section.Insurance div.rows{
+	min-height: 177px;
+	outline: 1px solid magenta;
+}
+
+section.Insurance div.rows article{
+	width: 166px;
+	margin-left: 23px;
+	min-height: 177px;
+	outline: 1px solid green;
+}
+
+section.Insurance div.rows article > a{
+	text-decoration: none;
+	position: relative;
+}
+
+section.Insurance div.rows article > a > img{
+	border-top: 2px solid #b3d98c !important;
+	border-left: 2px solid #b3d98c !important;
+	border-bottom: 2px solid #d4d4d4 !important;
+	border-right: 2px solid #d4d4d4 !important;
+	margin: 12px 6px 0 0;
+	padding: 3px;
+}
+
+section.Insurance div.rows article > p{
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 13px;
+}
+
+/*----- Contact Page -------------------------------------------------------------------*/
+div.outer-content div.inner-content h2.title.contact{
+	padding-right: 110px;
+	background: url(images/title_contact.png) no-repeat center top;
+}
+
+div.outer-content div.inner-content section.content figure.map{
+	width: 968px;
+	height: 180px;
+	margin-right: -20px;
+}
+
+div.outer-content div.inner-content section.content section.contact-detail{
+	border: 1px solid magenta;
+}
+
+div.inner-content section.content section.contact-detail section.contact-info{
+	width: 400px;
+	min-height: 200px;
+	border: 1px solid magenta;
+}
+
+div.inner-content section.content section.contact-detail section.contact-info > p{
+	color: #413E3E;
+	font-family: Tahoma;
+	font-size: 12px;
+	margin: 14px 0 0 0;
+	line-height: 30px;
+}
+
+div.inner-content section.content section.contact-detail section.contact-info > p > span{
+	font-weight: bold;
+}
+
+div.inner-content section.content section.contact-detail section.contact-form{
+	min-height: 200px;
+	margin-right: 400px;
+	border: 1px solid magenta;
+}
+
+div.inner-content section.content section.contact-detail section.contact-form > p{
+	color: #413E3E;
+	font-family: Tahoma;
+	font-size: 12px;
+	line-height: 40px;
+	margin: 5px 12px 0 0;
+}
+
+div.inner-content section.content section.contact-detail section.contact-form > p > span.star{
+	color: #9C6;
+}
+
+div.inner-content section.content section.contact-detail section.contact-form > p > abbr{
+	float: left;
+}
+
+div.inner-content section.content section.contact-detail section.contact-form > p > abbr > .txt{
+	width: 360px;
+	height: 30px;
+	padding: 0 10px;
+	transition:all 300ms;
+	-webkit-transition:all 300ms;
+	-moz-transition:all 300ms;
+	-o-transition:all 300ms;
+	-ms-transition:all 300ms;
+	-khtml-transition:all 300ms;
+	border: 1px solid #C7C7C7 !important;
+}
+
+div.inner-content section.content section.contact-detail section.contact-form > p > abbr > .txt:focus,
+div.inner-content section.content section.contact-detail section.contact-form > p > abbr > .txtarea:focus{
+	border: 1px solid #9C6 !important;
+	background-color: #EDFFDA;
+}
+
+div.inner-content section.content section.contact-detail section.contact-form > p > abbr > .txtarea{
+	width: 360px;
+	height: 100px;
+	padding: 0 10px;
+	transition:all 300ms;
+	-webkit-transition:all 300ms;
+	-moz-transition:all 300ms;
+	-o-transition:all 300ms;
+	-ms-transition:all 300ms;
+	-khtml-transition:all 300ms;
+	border: 1px solid #C7C7C7 !important;
+}
+
+div.inner-content section.content section.contact-detail section.contact-form > p > abbr > .btn{
+	width: 80px;
+	height: 34px;
+	background: url(images/send_btn.jpg) no-repeat center center;
+}
