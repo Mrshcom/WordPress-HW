@@ -11,10 +11,9 @@
 
 if($query->have_posts()){
   while($query->have_posts()){
-    // $query->the_post();
-    echo '<h1>' . get_the_title() . '</h1>';
-    // the_content();
     the_post_thumbnail('medium');
+    echo '<h1>' . get_the_title() . '</h1>';
+    the_title();
     $query->the_post();
     the_content();
     the_excerpt();
