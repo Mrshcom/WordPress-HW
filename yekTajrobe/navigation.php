@@ -52,6 +52,25 @@
 							<li><a href="#filter=.page-contact">ارتباط</a></li>
 						</ul>
 					</li>
+					<li>
+						<a href="#filter=.portfolio" class="selected"><span data-toggle="collapse" data-target="#portfolio-collapse"></span>نمونه کارها</a>
+						<ul id="portfolio-collapse" class="collapse out">
+							<?php
+							  $args = array(
+							    'type' => 'post',
+							    'orderby' => 'name',
+							    'order' => 'ASC',
+							    'hide_empty' => false
+							  );
+							  $class_name = "portfolio";
+							  $categories = get_categories($args);
+							  foreach($categories as $category) {
+							    $class_name  .= " " . $category->slug;
+							?>
+							<li><a href="#filter=.<?php echo $category->slug; ?>"><?php echo $category->name; ?></a></li>
+							<?php } ?>
+						</ul>
+					</li>
 					
 				</ul>
 			</div>
